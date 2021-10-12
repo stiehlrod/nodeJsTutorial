@@ -1,1 +1,1 @@
-[{"title":"book 2","price":"3","image":"/book.jpg","description":"safdas"},{"title":"one book","price":"6","image":"/book.jpg","description":"this one book"}]
+[{"id":"4352","title":"book 2","price":"3","imageUrl":"/book.jpg","description":"solid"},{"id":"565","title":"one book","price":"6.09","imageUrl":"/book.jpg                  ","description":"this!\r\n                        "},{"id":"377","title":"three","price":"7.99","imageUrl":"/book.jpg","description":"fun!    "}]
