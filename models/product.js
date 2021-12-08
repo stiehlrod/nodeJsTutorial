@@ -10,11 +10,12 @@ const p = path.join(__dirname,
 const getProductsFromFile = cb => {
     fs.readFile(p, (err, fileContent) => {
         if (err) {
-            return cb([]);
+            cb([]);
+        } else {
+            cb(JSON.parse(fileContent));
         }
-        cb(JSON.parse(fileContent));
-    })
-}
+    });
+};
 
 module.exports = class Product {
     constructor(id, title, price, description, imageUrl) {
@@ -64,6 +65,6 @@ module.exports = class Product {
         getProductsFromFile(products => {
             const product = products.find(p => p.id === id);
             cb(product);
-        })
+        });
     }
-}
+};

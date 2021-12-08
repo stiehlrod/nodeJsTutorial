@@ -1,1 +1,7 @@
-[{"id":"4352","title":"book 2","price":"3","imageUrl":"/book.jpg","description":"solid"},{"id":"565","title":"one book","price":"6.99","imageUrl":"/book.jpg                  ","description":"why the space?\r\n                        "},{"id":"377","title":"three","price":"7.99","imageUrl":"/book.jpg","description":"fun!    "}]
+[
+    {"id":"1","title":"sofa","price":"1200.00","imageUrl":"/sofa.jpeg","description":"comfy"},
+    {"id":"2","title":"chair","price":"879.00","imageUrl":"/chair.jpeg","description":"fav"},
+    {"id":"3","title":"rug","price":"199.00","imageUrl":"/rug.jpeg","description":"stylish!"},
+    {"id":"4","title":"shelf","price":"849.00","imageUrl":"/bookShelf.jpeg","description":"gorgeous"},
+    {"id":"5","title":"cabinet","price":"1099.00","imageUrl":"/bar.jpeg","description":"elegant"}
+]
