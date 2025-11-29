@@ -42,7 +42,7 @@ exports.postEditProduct = (req, res, next) => {
 };
 
 exports.getEditProduct = (req, res, next) => {
-    const editMode = req.query.edit;
+    const editMode = req.query.editing;
     if (!editMode) {
         return res.redirect('/');
     }
@@ -53,7 +53,7 @@ exports.getEditProduct = (req, res, next) => {
         }
         res.render('admin/edit-product', {
             pageTitle: 'Edit Product',
-            path: '/edit-product',
+            path: 'admin/edit-product/:prodId',
             editing: editMode,
             product: product
         })
